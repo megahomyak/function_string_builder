@@ -1,6 +1,6 @@
 [package]
 name = "function_string_builder"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 description = "A string builder that takes a user-provided function"
 license = "MIT"
