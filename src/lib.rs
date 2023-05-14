@@ -56,9 +56,9 @@ mod tests {
     fn test_building() {
         assert_eq!(
             build(|mut collector| {
-                collector.collect(&"a");
-                collector.collect(&"bcd");
-                collector.collect(&"ef");
+                collector.collect("a");
+                collector.collect("bcd");
+                collector.collect("ef");
             }),
             "abcdef"
         );

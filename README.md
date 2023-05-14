@@ -8,9 +8,9 @@ Such approach is aimed at minimizing the amount and size of allocations as much 
 
     assert_eq!(
         build(|mut collector| {
-            collector.collect(&"a");
-            collector.collect(&"bcd");
-            collector.collect(&"ef");
+            collector.collect("a");
+            collector.collect("bcd");
+            collector.collect("ef");
         }),
         "abcdef"
     );
